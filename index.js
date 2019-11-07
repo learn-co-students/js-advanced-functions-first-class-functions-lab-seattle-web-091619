@@ -23,7 +23,7 @@ return boogaloo
     let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
     function createFareMultiplier(){
-        return function(){return 25}
+        return function(x){return x*5}
     }
     function fareDoubler(x){
        return x*2
